@@ -7,28 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Kaushan+Script|Vidaloka" rel="stylesheet">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 <body>
     <div class="container-fluid">
-    <h1>Pig Dice Game</h1>
-    <div class="startInput">
+    
+    <h1 id ="heading">Pig Dice</h1>
+    <h1 id="text">Game Rules</h1>
+        </center>
+        <center>
+        <h2 id="text">First Player to 100 pts wins!</h2>
+        </center>
+        <a href="https://www.thesprucecrafts.com/pig-dice-game-complete-rules-of-pig-411405">Rules</a>
+        <h2 id="text">So You Want To Play The Pig!!</h2>
+       
+      </div>
+      <div class="container">
+        <center>
         <form>
-            <label for="player1Input">Player 1</label>
-            <input type="text" id = "p1-Input" class="form-control">
-
-            <label for="player2Input">Player 2</label>
-            <input type="text" id = "p2-Input" class="form-control">
-            <button type="submit" id = "Roll">Roll</button>
-            <button type="submit" id = "Hold">Hold</button>
-            
-            
-        </form>
-
-
-
-    </div>        
+          <div class="row">
+            <div class="col-md-4">
+              <label>player 1</label>
+              <input id="player1" type="text" name="">
+            </div>
+            <div class="col-md-4">
+              <label>player 2</label>
+              <input id="player2" type="text" name="">
+            </div>
+            <div class="col-md-4">
+              <button class="button btn-success"  >let's Roll!</button>
+            </div>
 
     </div>
 </body>
