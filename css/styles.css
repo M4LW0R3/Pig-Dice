@@ -1,20 +1,32 @@
 #heading{
     text-align: center;
     font-size: 10em;
-    font-family: 'cabin sketch', cursive;
-    color: black;
+    font-family: 'Shojumaru',cursive;
+    color: grey;
+    text-shadow:
+
 }
+
+
  
 #text{
-    color: black;
+    color: white;
     font-size: 23px;
     font-family: 'cabin sketch', cursive;
 }
 #score{
-    color: black;
+    color:white;
     font-size: 23px;
     font-family: 'cabin sketch', cursive;
 
 }
-
-
+#player{
+    color: white;
+    font-size: 23px;
+    font-family: 'cabin sketch', cursive;
+    
+}
+ 
+body{
+    background-image: url(http://www.wallpapers4u.org/wp-content/uploads/dice_dots_glass_surface_68593_1920x1080.jpg)
+} 
