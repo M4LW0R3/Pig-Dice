@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Kaushan+Script|Vidaloka" rel="stylesheet">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -26,18 +27,18 @@
       </div>
       <div class="container">
         <center>
-        <form>
+        <form id ="startInput">
           <div class="row">
             <div class="col-md-4">
-              <label>player 1</label>
-              <input id="player1" type="text" name="">
+              <label id = "player">player 1</label>
+              <input id="player1" type="text" name="" required>
             </div>
             <div class="col-md-4">
-              <label>player 2</label>
-              <input id="player2" type="text" name="">
+              <label id = "player">player 2</label>
+              <input id="player2" type="text" name="" required>
             </div>
             <div class="col-md-4">
-              <button class="button btn-success"  >let's Play</button>
+              <button id="score"class="button btn-outline-danger"  >let's Play</button>
             </div>
            </div> 
     </div>
@@ -49,8 +50,8 @@
                 <h2 id="score">Total <span id="pl1total"></span></h2>
               </div>
               <div class="col-md-4">
-                <button class="button btn-success roll" >Roll</button>
-              <button class="button btn-danger hold" >Hold</button></div>
+                <button id="score"class="button btn-outline-warning roll" >Roll</button>
+              <button id="score" class="button btn-outline-info hold" >Hold</button></div>
               <div class="col-md-4">
                 <h1 id="pl2name"></h1>
                 <h2 id="score">score <span id="pl2score"></span></h2>
