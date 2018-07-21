@@ -1,70 +1,70 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Kaushan+Script|Vidaloka" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Kaushan+Script|Vidaloka" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-    
+  <div class="container-fluid">
+
     <h1 id ="heading">Pig Dice</h1>
     <h1 id="text">Game Rules</h1>
-        <ul id = "list">
-            <li>If the player rolls a 1, they score nothing and it's becomes the next the player's turn</li>
-            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues</li>
-            <li>If the player chooses to "hold" their turn total is added to their score, and it becomes the next player's turn</li>
-            </ul>
-        </center>
-        <center>
-        <h2 id="text">First Player to 100 pts wins!</h2>
-        </center>
-        <a href="https://www.thesprucecrafts.com/pig-dice-game-complete-rules-of-pig-411405">Rules</a>
-        <h2 id="text">So You Want To Play The Pig!!</h2>
-       
+    <ul id = "list">
+      <li>If the player rolls a 1, they score nothing and it's becomes the next the player's turn</li>
+      <li>If the player rolls any other number, it is added to their turn total and the player's turn continues</li>
+      <li>If the player chooses to "hold" their turn total is added to their score, and it becomes the next player's turn</li>
+    </ul>
+  </center>
+  <center>
+    <h2 id="text">First Player to 100 pts wins!</h2>
+  </center>
+  <a href="https://www.thesprucecrafts.com/pig-dice-game-complete-rules-of-pig-411405">Rules</a>
+  <h2 id="text">So You Want To Play The Pig!!</h2>
+
+</div>
+<div class="container">
+  <center>
+    <form id ="startInput">
+      <div class="row">
+        <div class="col-md-4">
+          <label id = "player">player 1</label>
+          <input id="player1" type="text" name="" required>
+        </div>
+        <div class="col-md-4">
+          <label id = "player">player 2</label>
+          <input id="player2" type="text" name="" required>
+        </div>
+        <div class="col-md-4">
+          <button id="score"class="button btn-outline-danger"  >let's Play</button>
+        </div>
       </div>
-      <div class="container">
-        <center>
-        <form id ="startInput">
-          <div class="row">
-            <div class="col-md-4">
-              <label id = "player">player 1</label>
-              <input id="player1" type="text" name="" required>
-            </div>
-            <div class="col-md-4">
-              <label id = "player">player 2</label>
-              <input id="player2" type="text" name="" required>
-            </div>
-            <div class="col-md-4">
-              <button id="score"class="button btn-outline-danger"  >let's Play</button>
-            </div>
-           </div> 
     </div>
     <div class="container players">
-            <div class="row">
-              <div class="col-md-4">
-                <h1 id="pl1name"></h1>
-                <h2 id="score">score <span id="pl1score"></span></h2>
-                <h2 id="score">Total <span id="pl1total"></span></h2>
-              </div>
-              <div class="col-md-4">
-                <button id="score"class="button btn-outline-warning roll" >Roll</button>
-              <button id="score" class="button btn-outline-info hold" >Hold</button></div>
-              <div class="col-md-4">
-                <h1 id="pl2name"></h1>
-                <h2 id="score">score <span id="pl2score"></span></h2>
-                <h2 id="score">Total <span id="pl2total"></span></h2>
-              </div>
-            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h1 id="pl1name"></h1>
+          <h2 id="score">score <span id="pl1score"></span></h2>
+          <h2 id="score">Total <span id="pl1total"></span></h2>
+        </div>
+        <div class="col-md-4">
+          <button id="score"class="button btn-outline-warning roll" >Roll</button>
+          <button id="score" class="button btn-outline-info hold" >Hold</button></div>
+          <div class="col-md-4">
+            <h1 id="pl2name"></h1>
+            <h2 id="score">score <span id="pl2score"></span></h2>
+            <h2 id="score">Total <span id="pl2total"></span></h2>
           </div>
-    
-</body>
-</html>
+        </div>
+      </div>
+
+    </body>
+    </html>
