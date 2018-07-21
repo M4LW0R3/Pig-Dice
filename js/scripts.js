@@ -9,7 +9,7 @@ function Player(playerName,turn) {
 };
 
 Player.prototype.roll = function(){
-    var rand = Math.floor(Math.random()*6)+1;
+    var rand = Math.floor(Math.random()* (7-1))+1;;
     this.score = rand;
 };
 
