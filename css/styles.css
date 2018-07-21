@@ -3,12 +3,12 @@
     font-size: 10em;
     font-family: 'Shojumaru',cursive;
     color: grey;
-    
+
 }
 
 
 
- 
+
 #text{
     color: white;
     font-size: 23px;
@@ -24,7 +24,7 @@
     color: white;
     font-size: 23px;
     font-family: 'cabin sketch', cursive;
-    
+
 }
 
 #list{
@@ -32,7 +32,7 @@
     font-size: 20px;
     font-family: 'Kelly Slab', cursive;
 }
- 
+
 body{
     background-image: url(http://www.wallpapers4u.org/wp-content/uploads/dice_dots_glass_surface_68593_1920x1080.jpg)
-} 
+}
